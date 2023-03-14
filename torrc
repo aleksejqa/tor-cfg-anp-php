@@ -1,0 +1,47 @@
+SOCKSPort 31100
+SOCKSPort 91.203.192.107:31100
+BridgeRelay 0
+
+ExitRelay 1
+
+
+ControlPort 31151
+
+
+
+Log info file /dev/null
+Log notice file /dev/null
+Log debug file  /dev/null
+
+GeoIPFile /usr/share/tor/geoip
+GeoIPv6File /usr/share/tor/geoip6
+
+
+
+#my_password
+HashedControlPassword 16:6CE14D4BBF59E386607E25E6D5200BFE98604A0ACA10E9AE1ACA61A483
+
+
+StrictNodes 1
+RunAsDaemon 1
+
+
+
+
+#{US}, {KZ}, {UK}, {DE}, {HK}, {DK}, {EG}
+ExitNodes {NL}
+ExcludeNodes {RU},{UA}
+
+
+HardwareAccel 1
+
+KeepalivePeriod 1 minutes
+
+
+LogMessageDomains 0
+AvoidDiskWrites 0
+
+DisableOOSCheck 0
+DisableNetwork 0
+CacheDirectoryGroupReadable 0
+FetchDirInfoEarly 0
