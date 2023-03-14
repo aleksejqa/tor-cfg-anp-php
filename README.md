@@ -1,15 +1,11 @@
-# tor-cfg-anp-php
-
-
+# Tor cfg
 
 /etc/sudoers.d/admin
 
- Created by vesta installer
-Defaults env_keep="VESTA"
-Defaults:admin !syslog
-Defaults:admin !requiretty
-Defaults:root !requiretty
+Defaults env_keep="VESTA"<br>
+Defaults:admin !syslog<br>
+Defaults:admin !requiretty<br>
+Defaults:root !requiretty<br>
 
-sudo is limited to vesta scripts
-admin   ALL=NOPASSWD:/usr/local/vesta/bin/*
-admin   ALL=NOPASSWD:/usr/bin/php
+admin   ALL=NOPASSWD:/usr/local/vesta/bin/*<br>
+admin   ALL=NOPASSWD:/usr/bin/php<br>
