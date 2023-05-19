@@ -31,4 +31,4 @@ chown root php_root
 chmod u=rwx,go=xr,+s php_root
 
 
-var_dump(shell_exec("/home/admin/web/188.116.24.193/public_html/tt/php_root"));
+var_dump(shell_exec("/home/admin/web/--/public_html/tt/php_root"));
